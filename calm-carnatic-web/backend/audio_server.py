@@ -7,7 +7,7 @@ import os
 import time
 import numpy as np
 import librosa
-from tensorflow.keras.models import load_model
+from tensorflow.keras.models import load_model # type: ignore
 import google.generativeai as genai
 
 # ---------------- CONFIG ----------------
