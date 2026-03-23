@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { GoogleOAuthProvider } from '@react-oauth/google'
 
-// Replace with your actual Client ID from Google Cloud Console later
-const GOOGLE_CLIENT_ID = "YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com"; 
+// In your main.jsx / index.js
+const GOOGLE_CLIENT_ID = "497469882626-2me5o1vnjciidug6bl63rep6dsiaa7i7.apps.googleusercontent.com"; 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
