@@ -1,0 +1,28 @@
+# Core server
+fastapi==0.129.0
+uvicorn==0.40.0
+python-multipart==0.0.22
+starlette==0.52.1
+ 
+# ML / Audio
+tensorflow==2.20.0
+keras==3.13.2
+numpy==2.3.4
+librosa==0.11.0
+scipy==1.16.3
+soundfile==0.13.1
+scikit-learn==1.7.2
+numba==0.64.0
+llvmlite==0.46.0
+ 
+# Gemini
+google-genai
+google-api-core==2.30.0
+ 
+# EEG
+cushy-serial==1.1.1
+pyserial==3.5
+ 
+# Utilities
+python-dotenv
+anyio==4.12.1
