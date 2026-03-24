@@ -204,7 +204,7 @@ function App() {
       formData.append("file", blob, "recording.wav");
 
       try {
-        const res = await fetch("http://localhost:8001/predict-live", {
+        const res = await fetch("http://localhost:8000/predict-live", {
           method: "POST",
           body: formData
         });
