@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+numpy
+librosa
+tensorflow
+google-generativeai
+pyserial
+cushy-serial
+python-dotenv
